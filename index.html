@@ -19,11 +19,12 @@
 
         h1 {
             color: #4A90E2;
+            margin-top: 60px; /* Pour laisser de l'espace sous les boutons */
         }
 
         #camera {
             position: absolute;
-            top: 10px;
+            top: 70px;
             right: 10px;
             width: 200px;
             border-radius: 10px;
@@ -75,11 +76,12 @@
         }
 
         #navButtons {
-            position: absolute;
+            position: fixed;
             top: 10px;
             left: 10px;
             display: flex;
             gap: 10px;
+            z-index: 1000; /* Pour s'assurer que les boutons restent au-dessus des autres éléments */
         }
     </style>
 </head>
