@@ -73,9 +73,23 @@
         #backButton {
             margin-top: 30px;
         }
+
+        #navButtons {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
+    <div id="navButtons">
+        <a href="https://newer-site-recorder.netlify.app">Site Recorder</a>
+        <a href="https://newer-browser.netlify.app/paint/index.html">Paint</a>
+        <a href="https://newer-text.netlify.app">Text</a>
+    </div>
+
     <h1>Newer Screen Recorder</h1>
 
     <video id="camera" autoplay muted></video>
